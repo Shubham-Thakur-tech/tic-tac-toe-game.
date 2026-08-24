@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    
+    <div class="mode-container">
+        <button id="friend-mode" class="mode-btn">Play vs Friend</button>
+        <button id="ai-mode" class="mode-btn">Play vs Computer</button>
+    </div>
+
+    <div class="msg-container hide">
+        <h2 id="msg">Winner:</h2>
+    </div>
+
+    <div class="container">
+        <div class="game">
+            <button class="box" data-index="0"></button>
+            <button class="box" data-index="1"></button>
+            <button class="box" data-index="2"></button>
+            <button class="box" data-index="3"></button>
+            <button class="box" data-index="4"></button>
+            <button class="box" data-index="5"></button>
+            <button class="box" data-index="6"></button>
+            <button class="box" data-index="7"></button>
+            <button class="box" data-index="8"></button>
+        </div> 
+    </div>
+    
+    <div class="btn-container">
+        <button id="new-btn">New Game / Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
